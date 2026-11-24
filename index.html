@@ -152,7 +152,6 @@
         text-decoration: none;
         border: none;
         gap: 10px;
-        font-size: 1rem;
         font-weight: 700;
         margin: 1rem 3rem;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
@@ -163,10 +162,14 @@
         transition: 350ms ease;
       }
       .hero-text a:hover {
+        background-color: #274937;
+      }
+      .hero-text a:active {
         background-color: #315c46;
       }
       .hero-text i {
         transform: scale(1.25) translateY(1.5px);
+        flex-shrink: 0;
       }
       .compatability-chart {
         display: flex;
