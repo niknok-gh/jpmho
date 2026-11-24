@@ -1,0 +1,41 @@
+@import url("variable.css");
+
+*,
+*::before,
+*::after {
+  /* Disables text selection */
+  -webkit-user-select: none; /* Chrome, Safari, Edge */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Older IE */
+  user-select: none;
+}
+img {
+  /* Disables image dragging and selection */
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+  max-width: 100dvw;
+  min-height: 100dvh;
+  overflow-x: clip;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Ubuntu,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-color: var(--color-bg);
+}
