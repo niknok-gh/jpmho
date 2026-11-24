@@ -7,11 +7,18 @@
   --color-txt-p: #73877b;
 
   --color-faded-white: #f7faf78f;
+  --color-slight-black: #363336;
+  --color-dark-green: #1b5a3c;
+
+  --color-blue: #16378c;
+  --color-yellow: #ffbd59;
+  --color-red: #c83f49;
 
   --color-button-hover: #315c46;
 
+  --color-icon-box: #16845b80;
   --color-line-break: #73877b25;
 
-  --shadow-primary: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  --shadow-hover: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  --shadow-primary: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  --shadow-hover: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
